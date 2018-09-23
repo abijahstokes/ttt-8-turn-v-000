@@ -29,8 +29,6 @@ def move (array, index, value = "X")
   array[index] = value
 end
 
-move(board, 4, "X")
-move(board, 0, "O")
 
 def turn(board)
   puts "Please enter 1-9:
