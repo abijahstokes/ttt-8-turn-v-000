@@ -36,6 +36,3 @@ def turn(board)
 -----------
    |   |   "
 end
-
-
-
