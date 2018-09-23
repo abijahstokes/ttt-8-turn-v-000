@@ -35,5 +35,7 @@ end
 def turn(board)
   puts "Please enter 1-9:"
   turn = gets.strip
+  move(board, 0, "X")
+  turn = gets.strip
   move(board, 1, "X")
 end
