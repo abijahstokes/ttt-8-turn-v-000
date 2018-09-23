@@ -1,4 +1,6 @@
 
+board = ["X", "X", "X", "X", "O", "O", "X", "O", "O"]
+
 def display_board(board)
   puts "   |    |   "
   puts "------------"
