@@ -32,7 +32,6 @@ def turn(board)
   user_input = gets.strip
   index = input_to_index(user_input)
   move(board, index)
-    !position_taken?(board, index) && index.between?(0,8)
+  user_input = gets.strip
+    
 end
-
-
