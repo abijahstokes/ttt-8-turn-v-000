@@ -18,8 +18,6 @@ def position_taken? (board, index)
   end
 end
 
-
-
 def input_to_index(user_input)
   user_input.to_i - 1
 end
@@ -36,3 +34,5 @@ def turn(board)
   move(board, index)
     !position_taken?(board, index) && index.between?(0,8)
 end
+
+
